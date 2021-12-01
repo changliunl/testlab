@@ -1,6 +1,6 @@
 ** Settings ***
 Documentation    Learn how to create a simple test suite with the structure
-Force tags    Always display me!
+Force tags    Always display me!    testsuite1
 Default tags    I'm a default tag
 
 *** Test Cases ***
