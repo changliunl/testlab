@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Below test case is using a template to make itself data driven
-Force tags    testsuite3
+Force tags    Data-driven
 
 *** Test Cases ***
 Create a test case using a template

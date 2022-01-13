@@ -1,19 +1,13 @@
 *** Settings ***
 Documentation    Learn to create test cases with different styles
 Library    SeleniumLibrary
-Force tags    testsuite4
+Force tags    BDD style test case
 Test setup    run keywords
 ...    open browser    http://www.google.com    Chrome    AND
 ...    click element    css:button[id=L2AGLb]
 Test teardown    close browser
 
 *** Test Cases ***
-Create a test case with keyword driven style
-    input text    css:input[title=Zoeken]    robot framework
-    Press keys    css:input[title=Zoeken]    RETURN
-    click element    css:a[href="https://robotframework.org/"]
-    element should be visible    css:button[name="go-to-Getting started"]
-
 Create a test case with BDD style
     Given I am on google homepage
     When I search for    robot framework
