@@ -1,0 +1,12 @@
+Testcase Name: Valid Login
+
+Description:
+    User will go to https://opensource-demo.orangehrmlive.com/
+    and login with a valid username and password
+        valid username: Admin
+        valid password: admin123
+    If login is succesful, dashboard will open
+
+Selenium Keywords recommendation:
+    Open Browser
+

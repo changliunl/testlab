@@ -1,0 +1,14 @@
+Pre-requisite: User is logged in (Valid Login test case is created)
+
+Description:
+    After logging in, go to Recruitment > Vacancies from the main menu
+    Click on the Add button to create new vacancies
+        Job Title:      [up to you]
+        Vacancy Name:   [up to you]
+        Hiring Manager: Admin A
+    Press Save and then the back button
+    Verify that the table has the Vacancy Name you created
+
+Selenium Keywords that you need to know: (more keywords in https://robotframework.org/Selenium2Library/Selenium2Library.html)
+    Select From List By Label
+    Table Should Contain
