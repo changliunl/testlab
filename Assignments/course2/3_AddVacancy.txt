@@ -12,3 +12,8 @@ Description:
 Selenium Keywords that you need to know: (more keywords in https://robotframework.org/Selenium2Library/Selenium2Library.html)
     Select From List By Label
     Table Should Contain
+
+What you will learn:
+1. Selecting a dropdown values
+2. Verify whether the vacancy is created successfully by checking the table
+

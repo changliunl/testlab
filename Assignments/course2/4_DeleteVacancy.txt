@@ -1,0 +1,14 @@
+Pre-requisite:  User is logged in (Valid Login test case is created)
+                and Add Vacancy test case is created
+
+Description:
+    After logging in and creating a new vacancy,
+    Find the vacancy that you just created by using the filter "Hiring Manager" in Vacancies Search
+    Click on the search button
+    Check whether the vacancy is there on the table
+    Click on the checkbox beside the vacancy name
+    Press delete and "ok" to delete the vacancy
+
+Selenium Keywords that you need to know: (more keywords in https://robotframework.org/Selenium2Library/Selenium2Library.html)
+    Table Cell Should Contain
+

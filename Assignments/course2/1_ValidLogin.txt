@@ -1,12 +1,18 @@
-Testcase Name: Valid Login
-
 Description:
     User will go to https://opensource-demo.orangehrmlive.com/
     and login with a valid username and password
         valid username: Admin
         valid password: admin123
-    If login is succesful, dashboard will open
+    Click on Submit button
+    If login is successful, dashboard will open
 
-Selenium Keywords recommendation:
+Selenium Keywords that you need to know: (more keywords in https://robotframework.org/Selenium2Library/Selenium2Library.html)
     Open Browser
+    Maximize Browser Window (optional)
+    Input Text
+    Input Password
+    Click Element or Click Button
+
+What you will learn:
+1. How to use the basic selenium keywords (Open Browser, Maximize Browser Window, Inputs, Clicks)
 

@@ -1,0 +1,12 @@
+Pre-requisite: User is logged in (Valid Login test case is created)
+
+Description:
+    After logging in, click on the settings button on top right and click on logout
+    Verify that user is logged out by checking whether the login panel/login elements (e.g. submit button, username/password field) is visible
+
+Selenium Keywords that you need to know: (more keywords in https://robotframework.org/Selenium2Library/Selenium2Library.html)
+    Wait until Page Contains Element or Wait Until Element is Visible
+
+What you will learn:
+1. Using the wait keyword to wait until element is visible
+

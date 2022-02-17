@@ -10,8 +10,8 @@ ${VALID_PASSWORD}           admin123
 *** Test Cases ***
 Valid login
     Open Browser To Login Page
-    Input Username  ${VALID_USERNAME}
-    Input Password  //input[@id='txtPassword']  ${VALID_PASSWORD}
+    Input Username              ${VALID_USERNAME}
+    Input Password              //input[@id='txtPassword']  ${VALID_PASSWORD}
     Submit Credentials
 
 *** Keywords ***
