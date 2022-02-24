@@ -11,7 +11,6 @@ Create a test case to log something
 
 Create a test case to log something else
     [Documentation]    This is a test case which concatenate 2 strings
-    [Tags]    test_requirement_2
     ${result}    Catenate    Hello    World
     Log to console    ${result}
 
